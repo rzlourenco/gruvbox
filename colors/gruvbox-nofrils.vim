@@ -16,7 +16,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name='gruvbox'
+let g:colors_name='gruvbox-nofrils'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -134,15 +134,8 @@ let s:gb.faded_orange   = ['#af3a03', 130]     " 175-58-3
 " }}}
 " Setup Emphasis: {{{
 
-let s:bold = 'bold,'
-if g:gruvbox_bold == 0
-  let s:bold = ''
-endif
-
-let s:italic = 'italic,'
-if g:gruvbox_italic == 0
-  let s:italic = ''
-endif
+let s:bold = ''
+let s:italic = ''
 
 let s:underline = 'underline,'
 if g:gruvbox_underline == 0
@@ -566,72 +559,64 @@ hi! link lCursor Cursor
 " }}}
 " Syntax Highlighting: {{{
 
-if g:gruvbox_improved_strings == 0
-  hi! link Special GruvboxOrange
-else
-  call s:HL('Special', s:orange, s:bg1, s:italicize_strings)
-endif
+hi! link Special Normal
 
-call s:HL('Comment', s:gray, s:none, s:italicize_comments)
-call s:HL('Todo', s:vim_fg, s:vim_bg, s:bold . s:italic)
-call s:HL('Error', s:red, s:vim_bg, s:bold . s:inverse)
+hi! link Comment GruvboxGray
+hi! link Todo GruvboxGreen
+hi! link Error GruvboxRed
 
 " Generic statement
-hi! link Statement GruvboxRed
+hi! link Statement Normal
 " if, then, else, endif, swicth, etc.
-hi! link Conditional GruvboxRed
+hi! link Conditional Normal
 " for, do, while, etc.
-hi! link Repeat GruvboxRed
+hi! link Repeat Normal
 " case, default, etc.
-hi! link Label GruvboxRed
+hi! link Label Normal
 " try, catch, throw
-hi! link Exception GruvboxRed
+hi! link Exception Normal
 " sizeof, "+", "*", etc.
 hi! link Operator Normal
 " Any other keyword
-hi! link Keyword GruvboxRed
+hi! link Keyword Normal
 
 " Variable name
-hi! link Identifier GruvboxBlue
+hi! link Identifier Normal
 " Function name
-hi! link Function GruvboxGreenBold
+hi! link Function Normal
 
 " Generic preprocessor
-hi! link PreProc GruvboxAqua
+hi! link PreProc Normal
 " Preprocessor #include
-hi! link Include GruvboxAqua
+hi! link Include Normal
 " Preprocessor #define
-hi! link Define GruvboxAqua
+hi! link Define Normal
 " Same as Define
-hi! link Macro GruvboxAqua
+hi! link Macro Normal
 " Preprocessor #if, #else, #endif, etc.
-hi! link PreCondit GruvboxAqua
+hi! link PreCondit Normal
 
 " Generic constant
-hi! link Constant GruvboxPurple
+hi! link Constant Normal
 " Character constant: 'c', '/n'
-hi! link Character GruvboxPurple
+hi! link Character Normal
 " String constant: "this is a string"
-if g:gruvbox_improved_strings == 0
-  call s:HL('String',  s:green, s:none, s:italicize_strings)
-else
-  call s:HL('String',  s:fg1, s:bg1, s:italicize_strings)
-endif
+hi! link String Normal
 " Boolean constant: TRUE, false
-hi! link Boolean GruvboxPurple
+hi! link Boolean Normal
 " Number constant: 234, 0xff
-hi! link Number GruvboxPurple
+hi! link Number Normal
 " Floating point constant: 2.3e10
-hi! link Float GruvboxPurple
+hi! link Float Normal
 
 " Generic type
-hi! link Type GruvboxYellow
+hi! link Type Normal
 " static, register, volatile, etc
-hi! link StorageClass GruvboxOrange
+hi! link StorageClass Normal
 " struct, union, enum, etc.
-hi! link Structure GruvboxAqua
+hi! link Structure Normal
 " typedef
-hi! link Typedef GruvboxYellow
+hi! link Typedef Normal
 
 " }}}
 " Completion Menu: {{{
