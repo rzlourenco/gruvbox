@@ -1,5 +1,5 @@
 " -----------------------------------------------------------------------------
-" File: gruvbox.vim
+" File: gruvbox-nofrils.vim
 " Description: Retro groove color scheme for Vim
 " Author: morhetz <morhetz@gmail.com>
 " Source: https://github.com/morhetz/gruvbox

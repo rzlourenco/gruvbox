@@ -1,5 +1,5 @@
 " -----------------------------------------------------------------------------
-" File: gruvbox.vim
+" File: gruvbox-nofrils.vim
 " Description: Gruvbox colorscheme for Lightline (itchyny/lightline.vim)
 " Author: gmoe <me@griffinmoe.com>
 " Source: https://github.com/morhetz/gruvbox
