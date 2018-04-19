@@ -890,432 +890,432 @@ hi! link diffLine GruvboxBlue
 " }}}
 " Html: {{{
 
-hi! link htmlTag GruvboxBlue
-hi! link htmlEndTag GruvboxBlue
+hi! link htmlTag Normal
+hi! link htmlEndTag Normal
 
-hi! link htmlTagName GruvboxAquaBold
-hi! link htmlArg GruvboxAqua
+hi! link htmlTagName Normal
+hi! link htmlArg Normal
 
-hi! link htmlScriptTag GruvboxPurple
-hi! link htmlTagN GruvboxFg1
-hi! link htmlSpecialTagName GruvboxAquaBold
+hi! link htmlScriptTag Normal
+hi! link htmlTagN Normal
+hi! link htmlSpecialTagName Normal
 
-call s:HL('htmlLink', s:fg4, s:none, s:underline)
+hi! link htmlLink Normal
 
-hi! link htmlSpecialChar GruvboxOrange
+hi! link htmlSpecialChar Normal
 
-call s:HL('htmlBold', s:vim_fg, s:vim_bg, s:bold)
-call s:HL('htmlBoldUnderline', s:vim_fg, s:vim_bg, s:bold . s:underline)
-call s:HL('htmlBoldItalic', s:vim_fg, s:vim_bg, s:bold . s:italic)
-call s:HL('htmlBoldUnderlineItalic', s:vim_fg, s:vim_bg, s:bold . s:underline . s:italic)
+hi! link htmlBold Normal
+hi! link htmlBoldUnderline Normal
+hi! link htmlBoldItalic Normal
+hi! link htmlBoldUnderlineItalic Normal
 
-call s:HL('htmlUnderline', s:vim_fg, s:vim_bg, s:underline)
-call s:HL('htmlUnderlineItalic', s:vim_fg, s:vim_bg, s:underline . s:italic)
-call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
+hi! link htmlUnderline Normal
+hi! link htmlUnderlineItalic Normal
+hi! link htmlItalic Normal
 
 " }}}
 " Xml: {{{
 
-hi! link xmlTag GruvboxBlue
-hi! link xmlEndTag GruvboxBlue
-hi! link xmlTagName GruvboxBlue
-hi! link xmlEqual GruvboxBlue
-hi! link docbkKeyword GruvboxAquaBold
+hi! link xmlTag Normal
+hi! link xmlEndTag Normal
+hi! link xmlTagName Normal
+hi! link xmlEqual Normal
+hi! link docbkKeyword Normal
 
-hi! link xmlDocTypeDecl GruvboxGray
-hi! link xmlDocTypeKeyword GruvboxPurple
-hi! link xmlCdataStart GruvboxGray
-hi! link xmlCdataCdata GruvboxPurple
-hi! link dtdFunction GruvboxGray
-hi! link dtdTagName GruvboxPurple
+hi! link xmlDocTypeDecl Normal
+hi! link xmlDocTypeKeyword Normal
+hi! link xmlCdataStart Normal
+hi! link xmlCdataCdata Normal
+hi! link dtdFunction Normal
+hi! link dtdTagName Normal
 
-hi! link xmlAttrib GruvboxAqua
-hi! link xmlProcessingDelim GruvboxGray
-hi! link dtdParamEntityPunct GruvboxGray
-hi! link dtdParamEntityDPunct GruvboxGray
-hi! link xmlAttribPunct GruvboxGray
+hi! link xmlAttrib Normal
+hi! link xmlProcessingDelim Normal
+hi! link dtdParamEntityPunct Normal
+hi! link dtdParamEntityDPunct Normal
+hi! link xmlAttribPunct Normal
 
-hi! link xmlEntity GruvboxOrange
-hi! link xmlEntityPunct GruvboxOrange
+hi! link xmlEntity Normal
+hi! link xmlEntityPunct Normal
 " }}}
 " Vim: {{{
 
-call s:HL('vimCommentTitle', s:fg4_256, s:none, s:bold . s:italicize_comments)
+hi! link vimCommentTitle Normal
 
-hi! link vimNotation GruvboxOrange
-hi! link vimBracket GruvboxOrange
-hi! link vimMapModKey GruvboxOrange
-hi! link vimFuncSID GruvboxFg3
-hi! link vimSetSep GruvboxFg3
-hi! link vimSep GruvboxFg3
-hi! link vimContinue GruvboxFg3
+hi! link vimNotation Normal
+hi! link vimBracket Normal
+hi! link vimMapModKey Normal
+hi! link vimFuncSID Normal
+hi! link vimSetSep Normal
+hi! link vimSep Normal
+hi! link vimContinue Normal
 
 " }}}
 " Clojure: {{{
 
-hi! link clojureKeyword GruvboxBlue
-hi! link clojureCond GruvboxOrange
-hi! link clojureSpecial GruvboxOrange
-hi! link clojureDefine GruvboxOrange
+hi! link clojureKeyword Normal
+hi! link clojureCond Normal
+hi! link clojureSpecial Normal
+hi! link clojureDefine Normal
 
-hi! link clojureFunc GruvboxYellow
-hi! link clojureRepeat GruvboxYellow
-hi! link clojureCharacter GruvboxAqua
-hi! link clojureStringEscape GruvboxAqua
-hi! link clojureException GruvboxRed
+hi! link clojureFunc Normal
+hi! link clojureRepeat Normal
+hi! link clojureCharacter Normal
+hi! link clojureStringEscape Normal
+hi! link clojureException Normal
 
-hi! link clojureRegexp GruvboxAqua
-hi! link clojureRegexpEscape GruvboxAqua
-call s:HL('clojureRegexpCharClass', s:fg3, s:none, s:bold)
+hi! link clojureRegexp Normal
+hi! link clojureRegexpEscape Normal
+hi! link clojureRegexpCharClass Normal
 hi! link clojureRegexpMod clojureRegexpCharClass
 hi! link clojureRegexpQuantifier clojureRegexpCharClass
 
-hi! link clojureParen GruvboxFg3
-hi! link clojureAnonArg GruvboxYellow
-hi! link clojureVariable GruvboxBlue
-hi! link clojureMacro GruvboxOrange
+hi! link clojureParen Normal
+hi! link clojureAnonArg Normal
+hi! link clojureVariable Normal
+hi! link clojureMacro Normal
 
-hi! link clojureMeta GruvboxYellow
-hi! link clojureDeref GruvboxYellow
-hi! link clojureQuote GruvboxYellow
-hi! link clojureUnquote GruvboxYellow
+hi! link clojureMeta Normal
+hi! link clojureDeref Normal
+hi! link clojureQuote Normal
+hi! link clojureUnquote Normal
 
 " }}}
 " C: {{{
 
-hi! link cOperator GruvboxPurple
-hi! link cStructure GruvboxOrange
+hi! link cOperator Normal
+hi! link cStructure Normal
 
 " }}}
 " Python: {{{
 
-hi! link pythonBuiltin GruvboxOrange
-hi! link pythonBuiltinObj GruvboxOrange
-hi! link pythonBuiltinFunc GruvboxOrange
-hi! link pythonFunction GruvboxAqua
-hi! link pythonDecorator GruvboxRed
-hi! link pythonInclude GruvboxBlue
-hi! link pythonImport GruvboxBlue
-hi! link pythonRun GruvboxBlue
-hi! link pythonCoding GruvboxBlue
-hi! link pythonOperator GruvboxRed
-hi! link pythonException GruvboxRed
-hi! link pythonExceptions GruvboxPurple
-hi! link pythonBoolean GruvboxPurple
-hi! link pythonDot GruvboxFg3
-hi! link pythonConditional GruvboxRed
-hi! link pythonRepeat GruvboxRed
-hi! link pythonDottedName GruvboxGreenBold
+hi! link pythonBuiltin Normal
+hi! link pythonBuiltinObj Normal
+hi! link pythonBuiltinFunc Normal
+hi! link pythonFunction Normal
+hi! link pythonDecorator Normal
+hi! link pythonInclude Normal
+hi! link pythonImport Normal
+hi! link pythonRun Normal
+hi! link pythonCoding Normal
+hi! link pythonOperator Normal
+hi! link pythonException Normal
+hi! link pythonExceptions Normal
+hi! link pythonBoolean Normal
+hi! link pythonDot Normal
+hi! link pythonConditional Normal
+hi! link pythonRepeat Normal
+hi! link pythonDottedName Normal
 
 " }}}
 " CSS: {{{
 
-hi! link cssBraces GruvboxBlue
-hi! link cssFunctionName GruvboxYellow
-hi! link cssIdentifier GruvboxOrange
-hi! link cssClassName GruvboxGreen
-hi! link cssColor GruvboxBlue
-hi! link cssSelectorOp GruvboxBlue
-hi! link cssSelectorOp2 GruvboxBlue
-hi! link cssImportant GruvboxGreen
-hi! link cssVendor GruvboxFg1
+hi! link cssBraces Normal
+hi! link cssFunctionName Normal
+hi! link cssIdentifier Normal
+hi! link cssClassName Normal
+hi! link cssColor Normal
+hi! link cssSelectorOp Normal
+hi! link cssSelectorOp2 Normal
+hi! link cssImportant Normal
+hi! link cssVendor Normal
 
-hi! link cssTextProp GruvboxAqua
-hi! link cssAnimationProp GruvboxAqua
-hi! link cssUIProp GruvboxYellow
-hi! link cssTransformProp GruvboxAqua
-hi! link cssTransitionProp GruvboxAqua
-hi! link cssPrintProp GruvboxAqua
-hi! link cssPositioningProp GruvboxYellow
-hi! link cssBoxProp GruvboxAqua
-hi! link cssFontDescriptorProp GruvboxAqua
-hi! link cssFlexibleBoxProp GruvboxAqua
-hi! link cssBorderOutlineProp GruvboxAqua
-hi! link cssBackgroundProp GruvboxAqua
-hi! link cssMarginProp GruvboxAqua
-hi! link cssListProp GruvboxAqua
-hi! link cssTableProp GruvboxAqua
-hi! link cssFontProp GruvboxAqua
-hi! link cssPaddingProp GruvboxAqua
-hi! link cssDimensionProp GruvboxAqua
-hi! link cssRenderProp GruvboxAqua
-hi! link cssColorProp GruvboxAqua
-hi! link cssGeneratedContentProp GruvboxAqua
+hi! link cssTextProp Normal
+hi! link cssAnimationProp Normal
+hi! link cssUIProp Normal
+hi! link cssTransformProp Normal
+hi! link cssTransitionProp Normal
+hi! link cssPrintProp Normal
+hi! link cssPositioningProp Normal
+hi! link cssBoxProp Normal
+hi! link cssFontDescriptorProp Normal
+hi! link cssFlexibleBoxProp Normal
+hi! link cssBorderOutlineProp Normal
+hi! link cssBackgroundProp Normal
+hi! link cssMarginProp Normal
+hi! link cssListProp Normal
+hi! link cssTableProp Normal
+hi! link cssFontProp Normal
+hi! link cssPaddingProp Normal
+hi! link cssDimensionProp Normal
+hi! link cssRenderProp Normal
+hi! link cssColorProp Normal
+hi! link cssGeneratedContentProp Normal
 
 " }}}
 " JavaScript: {{{
 
-hi! link javaScriptBraces GruvboxFg1
-hi! link javaScriptFunction GruvboxAqua
-hi! link javaScriptIdentifier GruvboxRed
-hi! link javaScriptMember GruvboxBlue
-hi! link javaScriptNumber GruvboxPurple
-hi! link javaScriptNull GruvboxPurple
-hi! link javaScriptParens GruvboxFg3
+hi! link javaScriptBraces Normal
+hi! link javaScriptFunction Normal
+hi! link javaScriptIdentifier Normal
+hi! link javaScriptMember Normal
+hi! link javaScriptNumber Normal
+hi! link javaScriptNull Normal
+hi! link javaScriptParens Normal
 
 " }}}
 " YAJS: {{{
 
-hi! link javascriptImport GruvboxAqua
-hi! link javascriptExport GruvboxAqua
-hi! link javascriptClassKeyword GruvboxAqua
-hi! link javascriptClassExtends GruvboxAqua
-hi! link javascriptDefault GruvboxAqua
+hi! link javascriptImport Normal
+hi! link javascriptExport Normal
+hi! link javascriptClassKeyword Normal
+hi! link javascriptClassExtends Normal
+hi! link javascriptDefault Normal
 
-hi! link javascriptClassName GruvboxYellow
-hi! link javascriptClassSuperName GruvboxYellow
-hi! link javascriptGlobal GruvboxYellow
+hi! link javascriptClassName Normal
+hi! link javascriptClassSuperName Normal
+hi! link javascriptGlobal Normal
 
-hi! link javascriptEndColons GruvboxFg1
-hi! link javascriptFuncArg GruvboxFg1
-hi! link javascriptGlobalMethod GruvboxFg1
-hi! link javascriptNodeGlobal GruvboxFg1
-hi! link javascriptBOMWindowProp GruvboxFg1
-hi! link javascriptArrayMethod GruvboxFg1
-hi! link javascriptArrayStaticMethod GruvboxFg1
-hi! link javascriptCacheMethod GruvboxFg1
-hi! link javascriptDateMethod GruvboxFg1
-hi! link javascriptMathStaticMethod GruvboxFg1
+hi! link javascriptEndColons Normal
+hi! link javascriptFuncArg Normal
+hi! link javascriptGlobalMethod Normal
+hi! link javascriptNodeGlobal Normal
+hi! link javascriptBOMWindowProp Normal
+hi! link javascriptArrayMethod Normal
+hi! link javascriptArrayStaticMethod Normal
+hi! link javascriptCacheMethod Normal
+hi! link javascriptDateMethod Normal
+hi! link javascriptMathStaticMethod Normal
 
-" hi! link javascriptProp GruvboxFg1
-hi! link javascriptURLUtilsProp GruvboxFg1
-hi! link javascriptBOMNavigatorProp GruvboxFg1
-hi! link javascriptDOMDocMethod GruvboxFg1
-hi! link javascriptDOMDocProp GruvboxFg1
-hi! link javascriptBOMLocationMethod GruvboxFg1
-hi! link javascriptBOMWindowMethod GruvboxFg1
-hi! link javascriptStringMethod GruvboxFg1
+" hi! link Normal GruvboxFg1
+hi! link javascriptURLUtilsProp Normal
+hi! link javascriptBOMNavigatorProp Normal
+hi! link javascriptDOMDocMethod Normal
+hi! link javascriptDOMDocProp Normal
+hi! link javascriptBOMLocationMethod Normal
+hi! link javascriptBOMWindowMethod Normal
+hi! link javascriptStringMethod Normal
 
-hi! link javascriptVariable GruvboxOrange
+hi! link javascriptVariable Normal
 " hi! link javascriptVariable GruvboxRed
 " hi! link javascriptIdentifier GruvboxOrange
 " hi! link javascriptClassSuper GruvboxOrange
-hi! link javascriptIdentifier GruvboxOrange
-hi! link javascriptClassSuper GruvboxOrange
+hi! link javascriptIdentifier Normal
+hi! link javascriptClassSuper Normal
 
 " hi! link javascriptFuncKeyword GruvboxOrange
 " hi! link javascriptAsyncFunc GruvboxOrange
-hi! link javascriptFuncKeyword GruvboxAqua
-hi! link javascriptAsyncFunc GruvboxAqua
-hi! link javascriptClassStatic GruvboxOrange
+hi! link javascriptFuncKeyword Normal
+hi! link javascriptAsyncFunc Normal
+hi! link javascriptClassStatic Normal
 
-hi! link javascriptOperator GruvboxRed
-hi! link javascriptForOperator GruvboxRed
-hi! link javascriptYield GruvboxRed
-hi! link javascriptExceptions GruvboxRed
-hi! link javascriptMessage GruvboxRed
+hi! link javascriptOperator Normal
+hi! link javascriptForOperator Normal
+hi! link javascriptYield Normal
+hi! link javascriptExceptions Normal
+hi! link javascriptMessage Normal
 
-hi! link javascriptTemplateSB GruvboxAqua
-hi! link javascriptTemplateSubstitution GruvboxFg1
+hi! link javascriptTemplateSB Normal
+hi! link javascriptTemplateSubstitution Normal
 
 " hi! link javascriptLabel GruvboxBlue
 " hi! link javascriptObjectLabel GruvboxBlue
 " hi! link javascriptPropertyName GruvboxBlue
-hi! link javascriptLabel GruvboxFg1
-hi! link javascriptObjectLabel GruvboxFg1
-hi! link javascriptPropertyName GruvboxFg1
+hi! link javascriptLabel Normal
+hi! link javascriptObjectLabel Normal
+hi! link javascriptPropertyName Normal
 
-hi! link javascriptLogicSymbols GruvboxFg1
-hi! link javascriptArrowFunc GruvboxYellow
+hi! link javascriptLogicSymbols Normal
+hi! link javascriptArrowFunc Normal
 
-hi! link javascriptDocParamName GruvboxFg4
-hi! link javascriptDocTags GruvboxFg4
-hi! link javascriptDocNotation GruvboxFg4
-hi! link javascriptDocParamType GruvboxFg4
-hi! link javascriptDocNamedParamType GruvboxFg4
+hi! link javascriptDocParamName Normal
+hi! link javascriptDocTags Normal
+hi! link javascriptDocNotation Normal
+hi! link javascriptDocParamType Normal
+hi! link javascriptDocNamedParamType Normal
 
-hi! link javascriptBrackets GruvboxFg1
-hi! link javascriptDOMElemAttrs GruvboxFg1
-hi! link javascriptDOMEventMethod GruvboxFg1
-hi! link javascriptDOMNodeMethod GruvboxFg1
-hi! link javascriptDOMStorageMethod GruvboxFg1
-hi! link javascriptHeadersMethod GruvboxFg1
+hi! link javascriptBrackets Normal
+hi! link javascriptDOMElemAttrs Normal
+hi! link javascriptDOMEventMethod Normal
+hi! link javascriptDOMNodeMethod Normal
+hi! link javascriptDOMStorageMethod Normal
+hi! link javascriptHeadersMethod Normal
 
-hi! link javascriptAsyncFuncKeyword GruvboxRed
-hi! link javascriptAwaitFuncKeyword GruvboxRed
+hi! link javascriptAsyncFuncKeyword Normal
+hi! link javascriptAwaitFuncKeyword Normal
 
 " }}}
 " PanglossJS: {{{
 
-hi! link jsClassKeyword GruvboxAqua
-hi! link jsExtendsKeyword GruvboxAqua
-hi! link jsExportDefault GruvboxAqua
-hi! link jsTemplateBraces GruvboxAqua
-hi! link jsGlobalNodeObjects GruvboxFg1
-hi! link jsGlobalObjects GruvboxFg1
-hi! link jsFunction GruvboxAqua
-hi! link jsFuncParens GruvboxFg3
-hi! link jsParens GruvboxFg3
-hi! link jsNull GruvboxPurple
-hi! link jsUndefined GruvboxPurple
-hi! link jsClassDefinition GruvboxYellow
+hi! link jsClassKeyword Normal
+hi! link jsExtendsKeyword Normal
+hi! link jsExportDefault Normal
+hi! link jsTemplateBraces Normal
+hi! link jsGlobalNodeObjects Normal
+hi! link jsGlobalObjects Normal
+hi! link jsFunction Normal
+hi! link jsFuncParens Normal
+hi! link jsParens Normal
+hi! link jsNull Normal
+hi! link jsUndefined Normal
+hi! link jsClassDefinition Normal
 
 " }}}
 " TypeScript: {{{
 
-hi! link typeScriptReserved GruvboxAqua
-hi! link typeScriptLabel GruvboxAqua
-hi! link typeScriptFuncKeyword GruvboxAqua
-hi! link typeScriptIdentifier GruvboxOrange
-hi! link typeScriptBraces GruvboxFg1
-hi! link typeScriptEndColons GruvboxFg1
-hi! link typeScriptDOMObjects GruvboxFg1
-hi! link typeScriptAjaxMethods GruvboxFg1
-hi! link typeScriptLogicSymbols GruvboxFg1
-hi! link typeScriptDocSeeTag Comment
-hi! link typeScriptDocParam Comment
-hi! link typeScriptDocTags vimCommentTitle
-hi! link typeScriptGlobalObjects GruvboxFg1
-hi! link typeScriptParens GruvboxFg3
-hi! link typeScriptOpSymbols GruvboxFg3
-hi! link typeScriptHtmlElemProperties GruvboxFg1
-hi! link typeScriptNull GruvboxPurple
-hi! link typeScriptInterpolationDelimiter GruvboxAqua
+hi! link typeScriptReserved Normal
+hi! link typeScriptLabel Normal
+hi! link typeScriptFuncKeyword Normal
+hi! link typeScriptIdentifier Normal
+hi! link typeScriptBraces Normal
+hi! link typeScriptEndColons Normal
+hi! link typeScriptDOMObjects Normal
+hi! link typeScriptAjaxMethods Normal
+hi! link typeScriptLogicSymbols Normal
+hi! link typeScriptDocSeeTag Normal
+hi! link typeScriptDocParam Normal
+hi! link typeScriptDocTags Normal
+hi! link typeScriptGlobalObjects Normal
+hi! link typeScriptParens Normal
+hi! link typeScriptOpSymbols Normal
+hi! link typeScriptHtmlElemProperties Normal
+hi! link typeScriptNull Normal
+hi! link typeScriptInterpolationDelimiter Normal
 
 " }}}
 " PureScript: {{{
 
-hi! link purescriptModuleKeyword GruvboxAqua
-hi! link purescriptModuleName GruvboxFg1
-hi! link purescriptWhere GruvboxAqua
-hi! link purescriptDelimiter GruvboxFg4
-hi! link purescriptType GruvboxFg1
-hi! link purescriptImportKeyword GruvboxAqua
-hi! link purescriptHidingKeyword GruvboxAqua
-hi! link purescriptAsKeyword GruvboxAqua
-hi! link purescriptStructure GruvboxAqua
-hi! link purescriptOperator GruvboxBlue
+hi! link purescriptModuleKeyword Normal
+hi! link purescriptModuleName Normal
+hi! link purescriptWhere Normal
+hi! link purescriptDelimiter Normal
+hi! link purescriptType Normal
+hi! link purescriptImportKeyword Normal
+hi! link purescriptHidingKeyword Normal
+hi! link purescriptAsKeyword Normal
+hi! link purescriptStructure Normal
+hi! link purescriptOperator Normal
 
-hi! link purescriptTypeVar GruvboxFg1
-hi! link purescriptConstructor GruvboxFg1
-hi! link purescriptFunction GruvboxFg1
-hi! link purescriptConditional GruvboxOrange
-hi! link purescriptBacktick GruvboxOrange
+hi! link purescriptTypeVar Normal
+hi! link purescriptConstructor Normal
+hi! link purescriptFunction Normal
+hi! link purescriptConditional Normal
+hi! link purescriptBacktick Normal
 
 " }}}
 " CoffeeScript: {{{
 
-hi! link coffeeExtendedOp GruvboxFg3
-hi! link coffeeSpecialOp GruvboxFg3
-hi! link coffeeCurly GruvboxOrange
-hi! link coffeeParen GruvboxFg3
-hi! link coffeeBracket GruvboxOrange
+hi! link coffeeExtendedOp Normal
+hi! link coffeeSpecialOp Normal
+hi! link coffeeCurly Normal
+hi! link coffeeParen Normal
+hi! link coffeeBracket Normal
 
 " }}}
 " Ruby: {{{
 
-hi! link rubyStringDelimiter GruvboxGreen
-hi! link rubyInterpolationDelimiter GruvboxAqua
+hi! link rubyStringDelimiter Normal
+hi! link rubyInterpolationDelimiter Normal
 
 " }}}
 " ObjectiveC: {{{
 
-hi! link objcTypeModifier GruvboxRed
-hi! link objcDirective GruvboxBlue
+hi! link objcTypeModifier Normal
+hi! link objcDirective Normal
 
 " }}}
 " Go: {{{
 
-hi! link goDirective GruvboxAqua
-hi! link goConstants GruvboxPurple
-hi! link goDeclaration GruvboxRed
-hi! link goDeclType GruvboxBlue
-hi! link goBuiltins GruvboxOrange
+hi! link goDirective Normal
+hi! link goConstants Normal
+hi! link goDeclaration Normal
+hi! link goDeclType Normal
+hi! link goBuiltins Normal
 
 " }}}
 " Lua: {{{
 
-hi! link luaIn GruvboxRed
-hi! link luaFunction GruvboxAqua
-hi! link luaTable GruvboxOrange
+hi! link luaIn Normal
+hi! link luaFunction Normal
+hi! link luaTable Normal
 
 " }}}
 " MoonScript: {{{
 
-hi! link moonSpecialOp GruvboxFg3
-hi! link moonExtendedOp GruvboxFg3
-hi! link moonFunction GruvboxFg3
-hi! link moonObject GruvboxYellow
+hi! link moonSpecialOp Normal
+hi! link moonExtendedOp Normal
+hi! link moonFunction Normal
+hi! link moonObject Normal
 
 " }}}
 " Java: {{{
 
-hi! link javaAnnotation GruvboxBlue
-hi! link javaDocTags GruvboxAqua
-hi! link javaCommentTitle vimCommentTitle
-hi! link javaParen GruvboxFg3
-hi! link javaParen1 GruvboxFg3
-hi! link javaParen2 GruvboxFg3
-hi! link javaParen3 GruvboxFg3
-hi! link javaParen4 GruvboxFg3
-hi! link javaParen5 GruvboxFg3
-hi! link javaOperator GruvboxOrange
+hi! link javaAnnotation Normal
+hi! link javaDocTags Normal
+hi! link javaCommentTitle Normal
+hi! link javaParen Normal
+hi! link javaParen1 Normal
+hi! link javaParen2 Normal
+hi! link javaParen3 Normal
+hi! link javaParen4 Normal
+hi! link javaParen5 Normal
+hi! link javaOperator Normal
 
-hi! link javaVarArg GruvboxGreen
+hi! link javaVarArg Normal
 
 " }}}
 " Elixir: {{{
 
-hi! link elixirDocString Comment
+hi! link elixirDocString Normal
 
-hi! link elixirStringDelimiter GruvboxGreen
-hi! link elixirInterpolationDelimiter GruvboxAqua
+hi! link elixirStringDelimiter Normal
+hi! link elixirInterpolationDelimiter Normal
 
-hi! link elixirModuleDeclaration GruvboxYellow
+hi! link elixirModuleDeclaration Normal
 
 " }}}
 " Scala: {{{
 
 " NB: scala vim syntax file is kinda horrible
-hi! link scalaNameDefinition GruvboxFg1
-hi! link scalaCaseFollowing GruvboxFg1
-hi! link scalaCapitalWord GruvboxFg1
-hi! link scalaTypeExtension GruvboxFg1
+hi! link scalaNameDefinition Normal
+hi! link scalaCaseFollowing Normal
+hi! link scalaCapitalWord Normal
+hi! link scalaTypeExtension Normal
 
-hi! link scalaKeyword GruvboxRed
-hi! link scalaKeywordModifier GruvboxRed
+hi! link scalaKeyword Normal
+hi! link scalaKeywordModifier Normal
 
-hi! link scalaSpecial GruvboxAqua
-hi! link scalaOperator GruvboxFg1
+hi! link scalaSpecial Normal
+hi! link scalaOperator Normal
 
-hi! link scalaTypeDeclaration GruvboxYellow
-hi! link scalaTypeTypePostDeclaration GruvboxYellow
+hi! link scalaTypeDeclaration Normal
+hi! link scalaTypeTypePostDeclaration Normal
 
-hi! link scalaInstanceDeclaration GruvboxFg1
-hi! link scalaInterpolation GruvboxAqua
+hi! link scalaInstanceDeclaration Normal
+hi! link scalaInterpolation Normal
 
 " }}}
 " Markdown: {{{
 
-call s:HL('markdownItalic', s:fg3, s:none, s:italic)
+hi! link markdownItalic Normal
 
-hi! link markdownH1 GruvboxGreenBold
-hi! link markdownH2 GruvboxGreenBold
-hi! link markdownH3 GruvboxYellowBold
-hi! link markdownH4 GruvboxYellowBold
-hi! link markdownH5 GruvboxYellow
-hi! link markdownH6 GruvboxYellow
+hi! link markdownH1 Normal
+hi! link markdownH2 Normal
+hi! link markdownH3 Normal
+hi! link markdownH4 Normal
+hi! link markdownH5 Normal
+hi! link markdownH6 Normal
 
-hi! link markdownCode GruvboxAqua
-hi! link markdownCodeBlock GruvboxAqua
-hi! link markdownCodeDelimiter GruvboxAqua
+hi! link markdownCode Normal
+hi! link markdownCodeBlock Normal
+hi! link markdownCodeDelimiter Normal
 
-hi! link markdownBlockquote GruvboxGray
-hi! link markdownListMarker GruvboxGray
-hi! link markdownOrderedListMarker GruvboxGray
-hi! link markdownRule GruvboxGray
-hi! link markdownHeadingRule GruvboxGray
+hi! link markdownBlockquote Normal
+hi! link markdownListMarker Normal
+hi! link markdownOrderedListMarker Normal
+hi! link markdownRule Normal
+hi! link markdownHeadingRule Normal
 
-hi! link markdownUrlDelimiter GruvboxFg3
-hi! link markdownLinkDelimiter GruvboxFg3
-hi! link markdownLinkTextDelimiter GruvboxFg3
+hi! link markdownUrlDelimiter Normal
+hi! link markdownLinkDelimiter Normal
+hi! link markdownLinkTextDelimiter Normal
 
-hi! link markdownHeadingDelimiter GruvboxOrange
-hi! link markdownUrl GruvboxPurple
-hi! link markdownUrlTitleDelimiter GruvboxGreen
+hi! link markdownHeadingDelimiter Normal
+hi! link markdownUrl Normal
+hi! link markdownUrlTitleDelimiter Normal
 
-call s:HL('markdownLinkText', s:gray, s:none, s:underline)
-hi! link markdownIdDeclaration markdownLinkText
+hi! link markdownLinkText Normal
+hi! link markdownIdDeclaration Normal
 
 " }}}
 " Haskell: {{{
@@ -1325,39 +1325,39 @@ hi! link markdownIdDeclaration markdownLinkText
 " hi! link haskellConditional GruvboxAqua
 " hi! link haskellLet GruvboxOrange
 "
-hi! link haskellType GruvboxFg1
-hi! link haskellIdentifier GruvboxFg1
-hi! link haskellSeparator GruvboxFg1
-hi! link haskellDelimiter GruvboxFg4
-hi! link haskellOperators GruvboxBlue
+hi! link haskellType Normal
+hi! link haskellIdentifier Normal
+hi! link haskellSeparator Normal
+hi! link haskellDelimiter Normal
+hi! link haskellOperators Normal
 "
-hi! link haskellBacktick GruvboxOrange
-hi! link haskellStatement GruvboxOrange
-hi! link haskellConditional GruvboxOrange
+hi! link haskellBacktick Normal
+hi! link haskellStatement Normal
+hi! link haskellConditional Normal
 
-hi! link haskellLet GruvboxAqua
-hi! link haskellDefault GruvboxAqua
-hi! link haskellWhere GruvboxAqua
-hi! link haskellBottom GruvboxAqua
-hi! link haskellBlockKeywords GruvboxAqua
-hi! link haskellImportKeywords GruvboxAqua
-hi! link haskellDeclKeyword GruvboxAqua
-hi! link haskellDeriving GruvboxAqua
-hi! link haskellAssocType GruvboxAqua
+hi! link haskellLet Normal
+hi! link haskellDefault Normal
+hi! link haskellWhere Normal
+hi! link haskellBottom Normal
+hi! link haskellBlockKeywords Normal
+hi! link haskellImportKeywords Normal
+hi! link haskellDeclKeyword Normal
+hi! link haskellDeriving Normal
+hi! link haskellAssocType Normal
 
-hi! link haskellNumber GruvboxPurple
-hi! link haskellPragma GruvboxPurple
+hi! link haskellNumber Normal
+hi! link haskellPragma Normal
 
-hi! link haskellString GruvboxGreen
-hi! link haskellChar GruvboxGreen
+hi! link haskellString Normal
+hi! link haskellChar Normal
 
 " }}}
 " Json: {{{
 
-hi! link jsonKeyword GruvboxGreen
-hi! link jsonQuote GruvboxGreen
-hi! link jsonBraces GruvboxFg1
-hi! link jsonString GruvboxFg1
+hi! link jsonKeyword Normal
+hi! link jsonQuote Normal
+hi! link jsonBraces Normal
+hi! link jsonString Normal
 
 " }}}
 
